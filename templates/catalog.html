@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block site_wrapper %}
+<div id="main">
+<a href="#content" class="skip_link">Skip to main content</a>
+<div id="banner">
+<div class="bannerIEPadder">
+<div class="cart_box">
+[Link to cart here]
+</div>
+Modern Musician 
+</div>
+</div>
+<div id="navigation">
+<div  class="navIEPadder">
+<ul>
+<li><a href="/preview">Home</a></li>
+<li><a href="/preview">About</a></li>
+
+</ul>
+</div>
+</div>
+<div id="middle">
+<div id="sidebar">
+<div  class="sidebarIEPadder">
+[search box here]<br>
+[catgory listing here]
+
+</div>
+
+</div>
+
+<div id="content">
+<div  class="contentIEPadder">
+{% block content %}{% endblock %}
+
+</div>
+
+</div>
+</div>
+<div id="footer">
+<div  class="contentIEPadder">
+[footer here]
+</div>
+</div>
+</div>
+
+{% endblock %}

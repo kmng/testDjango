@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/DjangoTest/!svn/ver/9/Trunk/preview
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/DjangoTest/!svn/ver/9/Trunk/preview/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/DjangoTest/!svn/ver/5/Trunk/preview/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/DjangoTest/!svn/ver/5/Trunk/preview/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/DjangoTest/!svn/ver/5/Trunk/preview/models.py
+END

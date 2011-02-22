@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/DjangoTest/!svn/ver/15/Trunk/templates
+END
+catalog.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/DjangoTest/!svn/ver/15/Trunk/templates/catalog.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/DjangoTest/!svn/ver/9/Trunk/templates/index.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/DjangoTest/!svn/ver/25/Trunk/templates/base.html
+END
