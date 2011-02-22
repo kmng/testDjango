@@ -12,7 +12,7 @@ https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest
 kmng
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -33,13 +33,47 @@ e1b090c6-2b4e-4447-b9a7-cdc05ac17352
 
 0
 
+category.html
+file
+28
+
+
+
+2011-02-22T19:02:31.835764Z
+df23a56402cafd3568ede8040f23c6fa
+2011-02-22T19:15:52.658125Z
+28
+kmng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
+
 index.html
 file
 
 
 
 
-2011-02-18T23:04:26.000000Z
+2011-02-18T23:04:26.723672Z
 23ac856975a384eb35a4c493b6f2c236
 2011-02-18T23:05:01.775823Z
 25
