@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 51
-/svn/DjangoTest/!svn/ver/25/Trunk/templates/catalog
+/svn/DjangoTest/!svn/ver/30/Trunk/templates/catalog
 END
 category.html
 K 25
 svn:wc:ra_dav:version-url
 V 65
 /svn/DjangoTest/!svn/ver/28/Trunk/templates/catalog/category.html
+END
+product.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/DjangoTest/!svn/ver/30/Trunk/templates/catalog/product.html
 END
 index.html
 K 25
