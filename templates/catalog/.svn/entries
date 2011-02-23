@@ -1,14 +1,14 @@
 10
 
 dir
-30
+36
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest/Trunk/templates/catalog
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest
 
 
 
-2011-02-22T20:32:14.908125Z
-30
+2011-02-23T00:32:57.361250Z
+33
 kmng
 
 
@@ -67,40 +67,6 @@ kmng
 
 377
 
-product.html
-file
-
-
-
-
-2011-02-23T00:10:26.823336Z
-6cbe466f7ac795b6996a4fa5ba30aa0e
-2011-02-22T20:32:14.908125Z
-30
-kmng
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-533
-
 index.html
 file
 
@@ -134,4 +100,38 @@ kmng
 
 
 100
+
+product.html
+file
+
+
+
+
+2011-02-23T00:32:09.000000Z
+ac407c51d37ff2c087b8623bf9e3775d
+2011-02-23T00:32:57.361250Z
+33
+kmng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+937
 

@@ -1,14 +1,14 @@
 10
 
 dir
-21
+34
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest/Trunk/static
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest
 
 
 
-2011-02-17T00:36:45.724379Z
-17
+2011-02-23T00:35:58.298750Z
+34
 kmng
 
 
@@ -32,13 +32,14 @@ file
 
 
 
-2011-02-17T00:36:51.070344Z
-222db09e7b58a36184d8b0851cf9fc16
-2011-02-17T00:36:45.724379Z
-17
+2011-02-23T00:36:09.000000Z
+505683a01f743048849824482a8075bc
+2011-02-23T00:35:58.298750Z
+34
 kmng
 
 
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -57,8 +58,7 @@ kmng
 
 
 
-
-1305
+1575
 
 images
 dir
