@@ -80,6 +80,7 @@ INSTALLED_APPS = (
     'project1.catalog',
     'django.contrib.admin',
     'project1.utils',
+    'project1.cart',
 )
 
 SITE_NAME = 'Modern Musician'

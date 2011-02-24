@@ -3,23 +3,11 @@ svn:wc:ra_dav:version-url
 V 41
 /svn/DjangoTest/!svn/ver/28/Trunk/catalog
 END
-admin.py
+urls.py
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/DjangoTest/!svn/ver/22/Trunk/catalog/admin.py
-END
-views.py
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/DjangoTest/!svn/ver/28/Trunk/catalog/views.py
-END
-__init__.py
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/DjangoTest/!svn/ver/19/Trunk/catalog/__init__.py
+V 49
+/svn/DjangoTest/!svn/ver/25/Trunk/catalog/urls.py
 END
 tests.py
 K 25
@@ -27,21 +15,33 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/DjangoTest/!svn/ver/19/Trunk/catalog/tests.py
 END
-models.py
+__init__.py
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/DjangoTest/!svn/ver/21/Trunk/catalog/models.py
+V 53
+/svn/DjangoTest/!svn/ver/19/Trunk/catalog/__init__.py
 END
-urls.py
+admin.py
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/DjangoTest/!svn/ver/25/Trunk/catalog/urls.py
+V 50
+/svn/DjangoTest/!svn/ver/22/Trunk/catalog/admin.py
 END
 forms.py
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/DjangoTest/!svn/ver/22/Trunk/catalog/forms.py
+/svn/DjangoTest/!svn/ver/40/Trunk/catalog/forms.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/DjangoTest/!svn/ver/28/Trunk/catalog/views.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/DjangoTest/!svn/ver/21/Trunk/catalog/models.py
 END

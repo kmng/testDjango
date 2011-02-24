@@ -1,7 +1,7 @@
 10
 
 dir
-36
+39
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest/Trunk/templates/catalog
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest
 
@@ -107,14 +107,14 @@ file
 
 
 
-2011-02-23T00:32:09.000000Z
+2011-02-23T00:32:09.285356Z
 ac407c51d37ff2c087b8623bf9e3775d
 2011-02-23T00:32:57.361250Z
 33
 kmng
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
