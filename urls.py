@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),	
     (r'^',include('catalog.urls')),
 	(r'^preview/', 'preview.views.home'),
-    (r'^cart/',include('cart.urls'))
+    (r'^cart/',include('cart.urls')),
 	(r'^static/(?P<path>.*)$', 'django.views.static.serve',
 		{'document_root' :'/home/user/Public/testDjango/project1/static'}),
 )

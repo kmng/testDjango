@@ -5,6 +5,8 @@ from django.http import HttpResponseRedirect
 import decimal
 import random
 
+CART_ID_SESSION_KEY = 'cart_id'
+
 # get the current user's cart ID, set new one if blank
 def _cart_id(request):
     if request.session.get(CART_ID_SESSION_KEY,'') == '':
@@ -13,8 +15,7 @@ def _cart_id(request):
 
 def _generate_cart_id():
     cart_id = ''
-    characters = 'ABCDEFGHIJLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-            1234567890!@#$%^&*()'
+    characters = 'ABCDEFGHIJLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()'
     cart_id_length = 50
     for y in range(cart_id_length):
         card_id += characters[random.randint(0,len(characters) - 1)]
@@ -22,7 +23,7 @@ def _generate_cart_id():
 
 # return all items from the current user's cart
 def get_cart_items(request):
-    return CartItem.objects.filter(cart_id = _card_id(request))
+    return CartItem.objects.filter(cart_id = _cart_id(request))
 
 #add an item to the cart
 def add_to_cart(request):
@@ -30,9 +31,9 @@ def add_to_cart(request):
     product_slug = postdata.get('product_slug','')
     quantity = postdata.get('quantity',1)
     p = get_object_or_404(Product,slug=product_slug)
-    cart_products = get_cart_item(request)
+    cart_products = get_cart_items(request)
     for cart_item in cart_products:
-        if cart_item.product.id = p.id:
+        if cart_item.product.id == p.id:
             cart_item.augment_quantity(quantity)
             product_in_cart = True
 

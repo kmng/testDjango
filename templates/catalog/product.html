@@ -24,7 +24,13 @@
         {% endif  %}
         <br />
 		<br />
-        [add to cart button]
+        <form method="post" action="." class="cart">
+        	{{ form.as_p }}
+        	 <br />
+        	 <input type="submit" value="Add to Cart" name="submit" alt="Add to Cart" />
+        </form>
+        <div class="cb"></div>
+        	 
         <br />
 		<br />
         <div class="cb"><br /><br /></div>
