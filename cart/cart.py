@@ -18,8 +18,8 @@ def _generate_cart_id():
     characters = 'ABCDEFGHIJLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()'
     cart_id_length = 50
     for y in range(cart_id_length):
-        card_id += characters[random.randint(0,len(characters) - 1)]
-    return card_id
+        cart_id += characters[random.randint(0,len(characters) - 1)]
+    return cart_id
 
 # return all items from the current user's cart
 def get_cart_items(request):
@@ -32,19 +32,20 @@ def add_to_cart(request):
     quantity = postdata.get('quantity',1)
     p = get_object_or_404(Product,slug=product_slug)
     cart_products = get_cart_items(request)
+    product_in_cart = False
     for cart_item in cart_products:
         if cart_item.product.id == p.id:
             cart_item.augment_quantity(quantity)
             product_in_cart = True
 
-    if not product_int_cart:
+    if not product_in_cart:
         ci = CartItem()
         ci.product = p
         ci.quantity = quantity
         ci.cart_id = _cart_id(request)
         ci.save()
 
-def cart_distinct_item_count(request):
+def cart_item_count(request):
     return get_cart_items(request).count()
 
         
