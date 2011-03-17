@@ -1,6 +1,33 @@
 {% extends "catalog.html" %}
-
+{% load catalog_filters %}
 {% block content %}
+<table summary="Your Shopping Cart" id="shopping_cart">
+<caption>Your Shopping Cart</caption>
+	<thead>
+	<tr>
+		<th scope="col">Product</th>
+		<th scope="col">Price</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th scope="col" class="right">Total</th>		
+	</tr>	
+	</thead>
+	<tfoot>
+	<tr>	
+		<th class="right" colspan="5">Cart Subtotal:</th>
+		<th class="right">
+			{{ cart_subtotal|currency }}
+		</th>
+	</tr>
+		<th class="right" colspan="6">
+			<a href="">Checkout Now</a>
+		</th>
+	<tr>
+		
+	</tr>
+	</tfoot>
+</table>
 <h1> Cart Page Here</h1>
 Cart item count: {{ cart_item_count }}
 {% endblock %}
