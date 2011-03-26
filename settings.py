@@ -61,6 +61,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 )
 
 ROOT_URLCONF = 'project1.urls'
@@ -81,6 +82,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'project1.utils',
     'project1.cart',
+    'django.contrib.flatpages',
 )
 
 SITE_NAME = 'Modern Musician'
