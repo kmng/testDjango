@@ -1,14 +1,14 @@
 10
 
 dir
-64
+68
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest/Trunk/templates
 https://rmed7501pe.ad.medctr.ucla.edu:8443/svn/DjangoTest
 
 
 
-2011-03-17T22:20:20.012917Z
-62
+2011-03-17T22:37:53.439073Z
+68
 kmng
 
 
@@ -68,14 +68,14 @@ dir
 
 catalog.html
 file
-68
+69
 
 
 
-2011-03-17T22:37:23.000000Z
-dc06f7967ca80e1229553814b2976126
-2011-03-17T22:37:53.439073Z
-68
+2011-03-28T23:28:14.000000Z
+585461a34b1f95974b692f01b94af2ad
+2011-03-28T23:37:14.200323Z
+69
 kmng
 
 
@@ -98,7 +98,10 @@ kmng
 
 
 
-836
+829
+
+flatpages
+dir
 
 index.html
 file

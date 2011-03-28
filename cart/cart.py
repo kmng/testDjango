@@ -80,7 +80,10 @@ def cart_subtotal(request):
     for cart_item in cart_products:
         cart_total += cart_item.product.price * cart_item.quantity
     return cart_total
-     
+
+# returns the total number of items in the user's cart
+def cart_distinct_item_count(request):
+    return get_cart_items(request).count()     
         
 
 
