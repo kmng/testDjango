@@ -19,6 +19,8 @@ DATABASE_PORT = ''             # Set to empty string for default. Not used with 
 # Upon deployment, change to True
 ENABLE_SSL = False
 
+LOGIN_REDIRECT_URL = '/accounts/my_account/'
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.

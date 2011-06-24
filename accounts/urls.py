@@ -1,7 +1,7 @@
 from django.conf.urls.defaults import *
 from project1 import settings
 
-urlpatterns = patterns('p.accounts.views',
+urlpatterns = patterns('project1.accounts.views',
     (r'^register/$', 'register', 
         {'template_name': 'registration/register.html', 'SSL': settings.ENABLE_SSL }, 'register'),
     (r'^my_account/$', 'my_account', 
@@ -12,7 +12,12 @@ urlpatterns = patterns('p.accounts.views',
          {'template_name': 'registration/order_details.html'}, 'order_details'),
 )
 
-urlpatterns = patterns('django.contrib.auth.views',
+urlpatterns = patterns('project1.accounts.views',
+    (r'^register/$', 'register', 
+        {'template_name': 'registration/register.html'}, 'register'),
+)
+
+urlpatterns += patterns('django.contrib.auth.views',
     (r'^login/$', 'login', 
      {'template_name': 'registration/login.html' }, 'login'),
 )
