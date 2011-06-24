@@ -1,0 +1,19 @@
+{% extends "catalog.html" %}
+
+{% block content %}
+<h1>My Account</h1>
+<strong>Welcome, {{ name|capfirst }}!</strong>
+<br /><br />
+<fieldset class="my_account">
+    <legend>Order History</legend>
+   
+</fieldset>
+<br />
+<fieldset class="my_account">
+    <legend>Account Settings</legend>
+    <ul>
+    <li><a href="{% url django.contrib.auth.views.password_change %}">Change Password</a></li>
+   
+    </ul>
+</fieldset>
+{% endblock %}

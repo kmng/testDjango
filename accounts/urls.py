@@ -15,6 +15,8 @@ urlpatterns = patterns('project1.accounts.views',
 urlpatterns = patterns('project1.accounts.views',
     (r'^register/$', 'register', 
         {'template_name': 'registration/register.html'}, 'register'),
+        (r'^my_account/$', 'my_account', 
+         {'template_name': 'registration/my_account.html'}, 'my_account'),
 )
 
 urlpatterns += patterns('django.contrib.auth.views',
