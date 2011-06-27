@@ -89,6 +89,7 @@ INSTALLED_APPS = (
     'project1.cart',
     'project1.accounts',
     'django.contrib.flatpages',
+    'project1.checkout',
 )
 
 SITE_NAME = 'Modern Musician'
